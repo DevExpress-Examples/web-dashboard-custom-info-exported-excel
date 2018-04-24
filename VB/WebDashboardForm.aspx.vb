@@ -16,6 +16,7 @@ Namespace WebDashboard_CustomizeExport
         End Sub
 
         Protected Sub ASPxWebDashboard1_CustomizeExportDocument(ByVal sender As Object, ByVal e As CustomizeExportDocumentWebEventArgs)
+            If True Then
                 If e.ExportAction = DashboardExportAction.ExportToExcel Then
                     Dim ms As New MemoryStream()
                     e.Stream.Position = 0
@@ -58,6 +59,7 @@ Namespace WebDashboard_CustomizeExport
                     End If
                     e.Stream = ms
                 End If
+            End If
         End Sub
 
         Protected Sub ASPxDashboard1_ConfigureDataConnection(ByVal sender As Object, ByVal e As ConfigureDataConnectionWebEventArgs)
