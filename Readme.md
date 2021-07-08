@@ -4,7 +4,8 @@
 * [WebDashboardForm.aspx](./CS/WebDashboardForm.aspx) (VB: [WebDashboardForm.aspx](./VB/WebDashboardForm.aspx))
 * [WebDashboardForm.aspx.cs](./CS/WebDashboardForm.aspx.cs) (VB: [WebDashboardForm.aspx.vb](./VB/WebDashboardForm.aspx.vb))
 <!-- default file list end -->
-# ASP.NET Web Forms Dashboard - How to add custom information to the exported Excel document
+
+# Dashboard for Web Forms - How to add custom information to the exported Excel document
 
 This example shows how to add a custom header to each sheet for the exported workbook.
 
@@ -14,3 +15,8 @@ The [ASPxDashboard.CustomizeExportDocument](https://docs.devexpress.com/Dashboar
 
 - [ASPxDashboard.CustomizeExportDocument](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomizeExportDocument)
 - [Printing and Exporting](https://docs.devexpress.com/Dashboard/15181/common-features/printing-and-exporting)
+
+## More Examples
+
+- [Dashboard for Web Forms - How to add custom information to the exported dashboard](https://github.com/DevExpress-Examples/web-dashboard-how-to-add-custom-information-to-the-exported-dashboard-t466585)
+- [Dashboard for WinForms - How to add custom information to the exported dashboard](https://github.com/DevExpress-Examples/winforms-dashboard-how-to-add-custom-information-to-the-exported-dashboard-t466558)
