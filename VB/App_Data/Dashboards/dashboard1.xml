@@ -4,7 +4,7 @@
   <DataSources>
     <SqlDataSource ComponentName="sqlDataSource1">
       <Name>SQL Data Source</Name>
-      <Connection Name="connection" FromAppConfig="true" />
+      <Connection Name="sqlConn" FromAppConfig="true" />
       <Query Type="SelectQuery" Name="CustomerReportsQuery">
         <Tables>
           <Table Name="CustomerReports" />

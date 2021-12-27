@@ -1,10 +1,8 @@
-﻿Imports DevExpress.DashboardCommon
+﻿Imports System.IO
+Imports DevExpress.DashboardCommon
 Imports DevExpress.DashboardWeb
 Imports DevExpress.DataAccess.ConnectionParameters
 Imports DevExpress.Spreadsheet
-Imports System
-Imports System.Drawing
-Imports System.IO
 
 Namespace WebDashboard_CustomizeExport
     Partial Public Class WebDashboardForm
@@ -61,7 +59,7 @@ Namespace WebDashboard_CustomizeExport
         End Sub
 
         Protected Sub ASPxDashboard1_ConfigureDataConnection(ByVal sender As Object, ByVal e As ConfigureDataConnectionWebEventArgs)
-            If e.DataSourceName = "SQL Data Source" Then
+            If e.ConnectionName = "sqlConn" Then
                 Dim connectionParams As New Access97ConnectionParameters()
                 connectionParams.FileName = Server.MapPath("~/App_Data/nwind.mdb")
                 e.ConnectionParameters = connectionParams
