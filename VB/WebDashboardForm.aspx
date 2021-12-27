@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="WebDashboardForm.aspx.vb" Inherits="WebDashboard_CustomizeExport.WebDashboardForm" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebDashboardForm.aspx.cs" Inherits="WebDashboard_CustomizeExport.WebDashboardForm" %>
 <%@ Register assembly="DevExpress.Dashboard.v17.1.Web, Version=17.1.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     namespace="DevExpress.DashboardWeb" tagprefix="dx" %>
 <%@ Register assembly="DevExpress.Web.v17.1, Version=17.1.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
