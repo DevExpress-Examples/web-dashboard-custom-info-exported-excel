@@ -8,6 +8,8 @@
 
 This example shows how to add a custom header to each sheet for the exported workbook.
 
+![](web-dashboard-customize-export-document.png)
+
 The [ASPxDashboard.CustomizeExportDocument](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomizeExportDocument) event allows you to obtain the stream of the exported document using the [Stream](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.CustomizeExportDocumentWebEventArgs.Stream) property and customize the document's layout according to your requirements. For instance, [Excel documents](https://docs.devexpress.com/Dashboard/15181/common-features/printing-and-exporting) can be loaded into the [Workbook](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.Workbook) component for further processing.
 
 ## Files to Look At
