@@ -20,7 +20,7 @@ The [ASPxDashboard.CustomizeExportDocument](https://docs.devexpress.com/Dashboar
 ## Documentation
 
 - [ASPxDashboard.CustomizeExportDocument](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.ASPxDashboard.CustomizeExportDocument)
-- [Printing and Exporting](https://docs.devexpress.com/Dashboard/15181/common-features/printing-and-exporting)
+- [Exporting in the Web Dashboard](https://docs.devexpress.com/Dashboard/116694/web-dashboard/create-dashboards-on-the-web/exporting)
 
 ## More Examples
 
