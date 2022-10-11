@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebDashboardForm.aspx.cs" Inherits="WebDashboard_CustomizeExport.WebDashboardForm" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="WebDashboardForm.aspx.vb" Inherits="WebDashboard_CustomizeExport.WebDashboardForm" %>
 
 <!DOCTYPE html>
 <html>
